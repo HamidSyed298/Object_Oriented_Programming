@@ -9,7 +9,7 @@ digits = load_digits()
 data = scale(digits.data)
 y = digits.target
 
-# k = len(np.unique(y))
+# k = len(np.unique(y)) # If neede to be changed
 k = 10
 samples, features = data.shape
 
@@ -27,3 +27,4 @@ def bench_k_means(estimator, name, data):
 
 clf = KMeans(n_clusters=k, init = 'random', n_init=10)
 bench_k_means(clf,"1",data)
+
