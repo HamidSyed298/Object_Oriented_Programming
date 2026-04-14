@@ -10,7 +10,7 @@ data = scale(digits.data)
 y = digits.target
 
 # k = len(np.unique(y)) # If neede to be changed
-k = 100
+k = 10
 samples, features = data.shape
 
 def bench_k_means(estimator, name, data):
