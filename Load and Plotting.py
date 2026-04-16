@@ -38,7 +38,7 @@ for _ in range(20):
         with open("studentgrades.pickle", "wb") as f:
             pickle.dump(linear, f)
 
-# LOAD MODEL
+# LOADING MODEL
 pickle_in = open("studentgrades.pickle", "rb")
 linear = pickle.load(pickle_in)
 
