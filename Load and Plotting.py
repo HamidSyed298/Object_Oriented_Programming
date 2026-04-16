@@ -22,7 +22,7 @@ y =np.array(data[predict])
 x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(x, y, test_size=0.1)
 
 
-# TRAIN MODEL MULTIPLE TIMES FOR BEST SCORE
+# TRAIN MODEL MULTIPLE TIMES FOR THE BEST SCORE
 best = 0
 for _ in range(20):
     x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(x, y, test_size=0.1)
