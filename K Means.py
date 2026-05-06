@@ -1,4 +1,4 @@
-import  numpy as np
+import  numpy as n
 import sklearn
 from sklearn.preprocessing import scale
 from sklearn.datasets import load_digits
