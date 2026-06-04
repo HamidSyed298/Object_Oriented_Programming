@@ -1,5 +1,4 @@
 import pickle
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as pyplot
@@ -21,7 +20,6 @@ X = np.array(data.drop([predict],1))
 Y = np.array(data[predict])
 best = 0
 for _ in range(30):
-
     x_train, x_test, y_train,  y_test = sklearn.model_selection.train_test_split(X,Y,test_size = 0.1)
 
     linear = linear_model.LinearRegression()
