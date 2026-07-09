@@ -7,7 +7,6 @@ from sklearn.utils import shuffle
 import matplotlib.pyplot as plt
 from matplotlib import style
 import pickle
-import pytorch 
 
 style.use("ggplot")
 
