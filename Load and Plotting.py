@@ -45,7 +45,7 @@ linear = pickle.load(pickle_in)
 
 print("-------------------------")
 print('Coefficient: \n', linear.coef_)
-print('Intercept: \n', linear.intercept_)
+print('Intercept:\n', linear.intercept_)
 print("-------------------------")
 
 predicted= linear.predict(x_test)
