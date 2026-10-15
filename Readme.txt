@@ -1,5 +1,5 @@
 Welcome to the Object-Oriented Programming Basics in Python repository!
-This repository contains code examples that demonstrate the fundamental
+This repository contains code (scripts) examples that demonstrate the fundamental
 concepts of object-oriented programming (OOP) using Python. Whether you
 are a beginner or an experienced developer, this repository has something
 for you. The code in this repository is designed to help you understand
