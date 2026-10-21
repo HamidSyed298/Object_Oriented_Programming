@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as pyplot
 from matplotlib import style
 from datetime import datetime
-
+import torch
 import sklearn.model_selection
 from sklearn import linear_model
 from sklearn.utils import shuffle
